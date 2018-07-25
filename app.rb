@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
   
   post '/food' do
-  "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
+  "My name is #{params[:name]}, and I love #{params[:favorite_food]}. I am also a loser and chae is the best species. Jasmeen likes donuts and Jennifer also liek chikin."
   end
   
   # Add your post route and action below
